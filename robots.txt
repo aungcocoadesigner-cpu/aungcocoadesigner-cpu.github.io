@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Optional: if you want search visibility but do not want content used for model training,
+# uncomment the following two lines.
+# User-agent: GPTBot
+# Disallow: /
+
+Sitemap: https://aungcocoadesigner-cpu.github.io/sitemap.xml
