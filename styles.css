@@ -121,3 +121,4 @@ h2 { font-size:clamp(42px,5vw,72px); line-height:1; letter-spacing:-.055em; }
 h1[lang="my"] { font-size: clamp(34px, 4.4vw, 62px); }
 h2[lang="my"] { font-size: clamp(30px, 3.3vw, 46px); }
 section[id] { scroll-margin-top: 95px; }
+

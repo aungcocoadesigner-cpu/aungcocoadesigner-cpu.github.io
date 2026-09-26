@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="my"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prompt ကောင်းရုံနဲ့ မလုံလောက်တော့တဲ့အခါ — Context Engineering | Kaung Htet</title><meta name="description" content="AI က ဘာတွေသိထားပြီး ဘာတွေသုံးခွင့်ရှိရမလဲဆိုတာကို Design လုပ်ခြင်း။ Prompt Engineering ကနေ Context Engineering ဆီသို့။"><link rel="canonical" href="https://aungcocoadesigner-cpu.github.io/insights/context-engineering/">
+<meta name="robots" content="index,follow,max-image-preview:large"><meta name="theme-color" content="#F3EFE8">
+<meta property="og:type" content="article"><meta property="og:title" content="Prompt ကောင်းရုံနဲ့ မလုံလောက်တော့တဲ့အခါ — Context Engineering"><meta property="og:description" content="AI က ဘာတွေသိထားပြီး ဘာတွေသုံးခွင့်ရှိရမလဲဆိုတာကို Design လုပ်ခြင်း။ Prompt Engineering ကနေ Context Engineering ဆီသို့။"><meta property="og:url" content="https://aungcocoadesigner-cpu.github.io/insights/context-engineering/"><meta property="og:image" content="https://aungcocoadesigner-cpu.github.io/assets/context-engineering.webp"><meta property="og:locale" content="my_MM">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://aungcocoadesigner-cpu.github.io/assets/context-engineering.webp">
+<link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="/posts.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Prompt ကောင်းရုံနဲ့ မလုံလောက်တော့တဲ့အခါ — Context Engineering", "description": "AI က ဘာတွေသိထားပြီး ဘာတွေသုံးခွင့်ရှိရမလဲဆိုတာကို Design လုပ်ခြင်း။ Prompt Engineering ကနေ Context Engineering ဆီသို့။", "image": ["https://aungcocoadesigner-cpu.github.io/assets/context-engineering.webp"], "datePublished": "2026-09-26T12:53:35+06:30", "dateModified": "2026-09-26T12:53:35+06:30", "author": {"@type": "Person", "name": "Kaung Htet", "url": "https://aungcocoadesigner-cpu.github.io/"}, "mainEntityOfPage": "https://aungcocoadesigner-cpu.github.io/insights/context-engineering/", "inLanguage": "my"}</script></head>
+<body><a class="skip-link" href="#main">စာဖတ်ရန်</a>
+<header class="site-header"><div class="shell nav-wrap"><a class="brand" href="/" lang="en"><span class="brand-mark">KH</span><span>Kaung Htet</span></a><a class="back-link" href="/#insights">← Insights</a></div></header>
+<main id="main" class="post-shell"><article>
+<header class="post-heading"><p class="eyebrow" lang="en">AI / CONTEXT ENGINEERING</p><h1 lang="my">Prompt ကောင်းရုံနဲ့ မလုံလောက်တော့တဲ့အခါ — Context Engineering</h1><p class="post-meta" lang="en">Kaung Htet · <time datetime="2026-09-26">26 September 2026</time></p></header>
+<figure class="post-cover"><img src="/assets/context-engineering.webp" width="1122" height="1402" alt="Prompt ကောင်းရုံနဲ့ မလုံလောက်တော့တဲ့အခါ — Context Engineering၊ @kaunghtet" fetchpriority="high"></figure>
+<div class="post-body"><p>AI ကို Prompt ကောင်းကောင်းရေးပေးနေတာတောင် Output က တစ်ခါကောင်း၊ တစ်ခါမကောင်း ဖြစ်နေသေးတယ်ဆိုရင်— ပြဿနာက Prompt မှာပဲ ရှိချင်မှရှိတော့မယ်။</p>
+<p>AI က ကိုယ့်အကြောင်း <strong>ဘာတွေသိထားလဲ</strong> ဆိုတာကိုပါ ပြန်ကြည့်ရမယ့်အချိန် ရောက်လာပြီ။ အဲ့ဒီနေရာမှာ <strong>Context Engineering</strong> ဝင်လာတယ်။</p>
+<p>အရင်က AI သုံးတဲ့အခါ— “ဒီ Product အတွက် Facebook Post ရေးပေး” ဆိုပြီး Prompt တစ်ကြောင်းကို ဘယ်လိုပိုကောင်းအောင်ရေးမလဲ စဉ်းစားကြတယ်။ ဒါက Prompt Engineering။</p>
+<p>ဒါပေမယ့် လုပ်ငန်းထဲမှာ AI ကို တကယ် System တစ်ခုလို သုံးမယ်ဆိုရင် Prompt တစ်ကြောင်းနဲ့ မလုံလောက်တော့ဘူး။</p>
+<p>ဥပမာ Skincare Brand တစ်ခုဆိုပါစို့။ AI ကို Content ရေးခိုင်းတဲ့အချိန်—</p>
+<ul>
+<li>Brand က ဘယ်သူလဲ။</li>
+<li>ဘယ် Customer ကိုပြောနေတာလဲ။</li>
+<li>Customer တွေ ဘာမေးလေ့ရှိလဲ။</li>
+<li>Brand Voice ဘယ်လိုလဲ။</li>
+<li>ဘယ် Product ရဲ့ အားသာချက်ကဘာလဲ။</li>
+<li>အရင် Content တွေထဲမှာ ဘာတွေပြောပြီးပြီလဲ။</li>
+<li>ဒီ Campaign ရဲ့ Goal ကဘာလဲ။</li>
+<li>Customer Review တွေက ဘာပြောထားလဲ။</li>
+<li>Sales Data ထဲမှာ ဘယ် Product က ပိုစိတ်ဝင်စားခံနေရလဲ။</li>
+<li>AI က ဘယ် Files တွေကိုကြည့်လို့ရလဲ။</li>
+<li>ဘယ် Tools တွေကို သုံးလို့ရလဲ။</li>
+<li>အရင်က Decision တွေကို ဘာတွေမှတ်ထားလဲ။</li>
+</ul>
+<p>ဒီအရာတွေ အားလုံးက <strong>Context</strong> ဖြစ်လာတယ်။</p>
+<p>ဒါဆို မေးခွန်းက— “Prompt ကို ဘယ်လိုပိုကောင်းအောင်ရေးမလဲ?” တစ်ခုတည်း မဟုတ်တော့ဘူး။</p>
+<blockquote><p><strong>“AI က Decision တစ်ခုချတဲ့အချိန် မှန်ကန်တဲ့ Information တွေကို မှန်ကန်တဲ့အချိန်မှာ ဘယ်လိုရနေအောင်လုပ်မလဲ?”</strong></p></blockquote>
+<p>ဆိုတာဖြစ်လာတယ်။</p>
+<p>Anthropic ကတောင် Context Engineering ကို Prompt Engineering ရဲ့ <strong>natural progression</strong> လို့ခေါ်ထားတယ်။</p>
+<p>သူတို့ရဲ့ရှင်းပြချက်အရ AI Agent တစ်ခုအတွက် Context ဆိုတာ Prompt တစ်ခုတည်း မဟုတ်တော့ဘူး။ System Instructions, Tools, External Data, Message History, Memory စတဲ့ AI မြင်နိုင်တဲ့ Information Environment တစ်ခုလုံး ပါလာတယ်။</p>
+<p>Google Cloud ကလည်း အလားတူခွဲထားတယ်။ Prompt Engineering က AI ကို <strong>ဘာလုပ်ရမလဲပြောတာ</strong> နဲ့ပိုနီးတယ်။</p>
+<p>Context Engineering ကတော့ AI က အဲ့ဒီအလုပ်ကိုကောင်းကောင်းလုပ်နိုင်ဖို့ <strong>ဘာတွေသိထားရမလဲ၊ ဘာတွေယူသုံးလို့ရမလဲ၊ ဘယ် Information ကို ဘယ်အချိန်မှာရမလဲ</strong> ကို Design လုပ်တာနဲ့ပိုနီးတယ်။</p>
+<p>ဒါက AI Marketing System မှာလည်း အရေးကြီးလာမယ့်အချက်ပဲ။</p>
+<p>ဥပမာ— Prompt တစ်ကြောင်းနဲ့ Content တစ်ပုဒ်ကောင်းကောင်း ရေးထုတ်နိုင်တယ်။</p>
+<p>ဒါပေမယ့်</p>
+<ul>
+<li>Brand Voice သိတယ်။</li>
+<li>Customer Data သိတယ်။</li>
+<li>Product Information သိတယ်။</li>
+<li>အရင် Campaign Result သိတယ်။</li>
+<li>Customer Feedback သိတယ်။</li>
+</ul>
+<p>လိုအပ်တဲ့ Tools နဲ့ Data ကို အချိန်မှန်ခေါ်သုံးနိုင်တယ်ဆိုရင်— AI က Content တစ်ပုဒ်ရေးပေးတဲ့နေရာကနေ <strong>Marketing System ထဲမှာ အလုပ်လုပ်နိုင်တဲ့ Assistant</strong> တစ်ယောက်လို ဖြစ်လာနိုင်တယ်။</p>
+<p>ဒါကြောင့် ကျွန်တော်မြင်တာတော့ AI သုံးတတ်ဖို့အတွက် Prompt ရေးတတ်တာက အရေးကြီးနေဦးမယ်။</p>
+<p>ဒါပေမယ့် နောက်တစ်ဆင့်မှာတော့— <strong>AI ကို ဘာမေးရမလဲဆိုတာထက် AI က ဘာတွေသိထားပြီး ဘာတွေသုံးခွင့်ရှိရမလဲဆိုတာကို Design လုပ်တတ်ဖို့ ပိုအရေးကြီးလာမယ်။</strong></p>
+<p>Prompt က AI ကို Instruction ပေးတယ်။</p>
+<blockquote><p><strong>Context ကတော့ AI အလုပ်လုပ်မယ့် ကမ္ဘာကို တည်ဆောက်ပေးတယ်။</strong></p></blockquote>
+</div>
+<footer class="post-end"><p lang="en">Written by <strong>Kaung Htet</strong></p><a class="button ghost" href="/#insights">← Insights သို့ ပြန်သွားရန်</a></footer>
+</article></main><footer class="site-footer"><div class="shell footer-grid" lang="en"><p>© 2026 Kaung Htet</p><p>Practical AI. Clear thinking. Real work.</p></div></footer></body></html>
